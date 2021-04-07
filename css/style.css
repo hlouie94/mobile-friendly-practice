@@ -1,0 +1,63 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.title {
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+
+section {
+    min-height: 500px;
+    width: 100%;
+}
+
+.pattern {
+    position: relative;
+    background: #16c8e1;
+    background-image: linear-gradient(180deg, #16c8e1 0%, #021416 100%);
+}
+
+.pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 215px;
+    background: url(wave.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.text {
+    max-width: 80%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+.stitle1, .stitle2 {
+    color: teal;
+    letter-spacing: 1px;
+}
+
+.stitle2 {
+    text-align: right;
+}
+
+.p2 {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    color: #fff;
+    background-color: #072326; 
+    padding-top: 50px;
+}
